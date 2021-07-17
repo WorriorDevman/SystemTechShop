@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:systemtechshop/utilities/my_constant.dart';
+import 'package:systemtechshop/widgets/show_image.dart';
 
 class Authen extends StatefulWidget {
   const Authen({ Key? key }) : super(key: key);
@@ -12,7 +14,7 @@ class _AuthenState extends State<Authen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Text('This is Authentication Process')
+        child: ShowImage(path: MyConstant.image5),
         ),
     );
   }
