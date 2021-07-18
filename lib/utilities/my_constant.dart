@@ -1,4 +1,4 @@
-
+import 'package:flutter/cupertino.dart';
 
 class MyConstant {
   //General
@@ -17,4 +17,27 @@ class MyConstant {
   static String image3 = 'images/image3.png';
   static String image4 = 'images/image4.png';
   static String image5 = 'images/image5.png';
+
+  //Color
+  static Color primary = Color(0xff);
+  static Color dark = Color(0xff);
+  static Color light = Color(0xff);
+
+  //Style
+  TextStyle h1Style() => TextStyle(
+    fontSize: 24,
+    color: dark,
+    fontWeight: FontWeight.bold,
+  );
+    TextStyle h2Style() => TextStyle(
+    fontSize: 24,
+    color: dark,
+    fontWeight: FontWeight.w700,
+  );
+    TextStyle h3Style() => TextStyle(
+    fontSize: 24,
+    color: dark,
+    fontWeight: FontWeight.normal,
+  );
+
 }
